@@ -1,0 +1,54 @@
+{
+  "name": "glog",
+  "version": "0.0.1",
+  "description": "Blog project written in GoLang.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config ./webpack/webpack.conf.dev.js",
+    "build": "webpack --config ./webpack/webpack.conf.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.mugsoft.io:games/tombala.git"
+  },
+  "keywords": [
+    "tombala"
+  ],
+  "author": "Muhammed Furkan AYDIN <furkan@mugsoft.io>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "@types/bootstrap": "^4.3.0",
+    "@types/jquery": "^3.3.29",
+    "@types/node": "^11.12.0",
+    "@types/toastr": "^2.1.36",
+    "autoprefixer": "^9.5.0",
+    "axios": "0.18.0",
+    "babel-loader": "8.0.5",
+    "bootstrap": "^4.3.1",
+    "clappr": "^0.3.3",
+    "clean-webpack-plugin": "1.0.0",
+    "copy-webpack-plugin": "^5.0.1",
+    "css-loader": "2.1.0",
+    "extract-text-webpack-plugin": "4.0.0-alpha.0",
+    "file-loader": "3.0.1",
+    "html-loader": "0.5.5",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "3.2.0",
+    "image-webpack-loader": "4.6.0",
+    "jquery": "^3.3.1",
+    "less": "3.9.0",
+    "less-loader": "4.1.0",
+    "popper.js": "^1.14.7",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "style-loader": "0.23.1",
+    "sweetalert2": "^7.33.1",
+    "toastr": "^2.1.4",
+    "ts-loader": "5.3.2",
+    "ts-node": "7.0.1",
+    "typescript": "3.2.2",
+    "webpack": "4.28.3",
+    "webpack-cli": "3.2.0"
+  }
+}
