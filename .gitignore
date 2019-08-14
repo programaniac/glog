@@ -17,3 +17,5 @@ out/
 *.njsproj
 *.sln
 .env
+
+package-lock.json
